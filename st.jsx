@@ -7,6 +7,7 @@ import './Styles.css';
 import { useNavigate } from 'react-router-dom';
 
 const CreateListing = () => {
+  console.log('sdf');
   const {currentUser} = useSelector(state => state.user);
   const [files, setFiles] = useState([]);
   const [formData, setFormData] = useState({
@@ -28,6 +29,7 @@ const CreateListing = () => {
   });
   const [imageUploadError, setImageUploadError] = useState(false);
   const [uploading, setUploading] = useState(false);
+  console.log('wef');
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
