@@ -7,7 +7,7 @@ This system is designed to simulate the core functionalities of a real-world ban
 ---
 
 ## 📁 Project Structure
-
+```
 ├── DDL_Script.sql            -- Complete schema creation (tables + constraints)
 ├── Data_Insertion.sql        -- Sample data insertion into the schema
 ├── Queries.sql               -- Many powerful and real-life banking SQL queries
@@ -16,7 +16,7 @@ This system is designed to simulate the core functionalities of a real-world ban
 ├── Minimal_FD_Set.pdf        -- Functional dependency analysis
 ├── Normalization_BCNF.pdf    -- Normalization report up to BCNF
 └── README.md                 -- This file
-
+```
 ---
 
 ## 🧠 Features & Modules
